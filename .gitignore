@@ -1,0 +1,79 @@
+# =========================
+# General
+# =========================
+.env
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# Python / FastAPI
+# =========================
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env.*
+.venv/
+__pypackages__/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# FastAPI specific
+*.sqlite3
+*.db
+
+# =========================
+# Node / Next.js
+# =========================
+# Dependency directories
+node_modules/
+.pnpm/
+.npm/
+.yarn/
+
+# Next.js build output
+.next/
+out/
+dist/
+
+# Next.js environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js cache
+.next/cache
+
+# TypeScript
+*.tsbuildinfo
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Misc / OS
+# =========================
+*.bak
+*.orig
+*.rej
+settings.json
